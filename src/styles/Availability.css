@@ -1,0 +1,125 @@
+/* Availability.css */
+
+/* General Container */
+.availability-container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f4f6f7;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.blood-symbol {
+  font-size: 4rem;
+  color: #e74c3c;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.3rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+/* Error Message */
+.error-message {
+  background-color: #e74c3c;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Table */
+.availability-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.availability-table th,
+.availability-table td {
+  padding: 1.5rem;
+  border: 1px solid #ecf0f1;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.availability-table th {
+  background-color: #2980b9;
+  color: white;
+  font-weight: bold;
+}
+
+.availability-table td {
+  background-color: #ffffff;
+  color: #34495e;
+  font-size: 1.1rem;
+}
+
+/* Row card-style appearance */
+.availability-table tr {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.availability-table tr:hover {
+  background-color: #f39c12;
+  cursor: pointer;
+}
+
+/* Add a smooth border-radius to table cells */
+.availability-table th, .availability-table td {
+  border-radius: 8px;
+}
+
+/* Button Style (if you want to add a button later) */
+.availability-button {
+  background-color: #2980b9;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.availability-button:hover {
+  background-color: #1c5980;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .availability-container {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .availability-table th,
+  .availability-table td {
+    font-size: 1rem;
+  }
+}
